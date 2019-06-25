@@ -76,7 +76,7 @@ private:
     const int64_t LEVEL = 3000000000; 
     const double RATE_ACC = 1.015; 
     const int64_t SEND_LIMIT = 790030000000;
-    const double INIT_RATE = 35;
+    const double INIT_RATE = 100.0 / 3.0;
 
     struct [[eosio::table]] state {
         asset round_remain; 
